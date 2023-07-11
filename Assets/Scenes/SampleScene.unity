@@ -570,6 +570,7 @@ MonoBehaviour:
   - {fileID: 445145281}
   androidButtons: {fileID: 361125384}
   canvasController: {fileID: 157817488}
+  projectileSpawner: {fileID: 311362928}
 --- !u!4 &223550270
 Transform:
   m_ObjectHideFlags: 0
@@ -720,7 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83da3a40e4dcd4747a9ea614ebabc4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 6796865430356073850, guid: 102cf278815a3ca4f8fad34c77d62106, type: 3}
+  projectilePrefab: {fileID: -5431485992983034322, guid: b5e569e9dab0d4f48945b64030f463ec, type: 3}
   defaultCapacity: 10
   maxPoolSize: 15
 --- !u!4 &311362929

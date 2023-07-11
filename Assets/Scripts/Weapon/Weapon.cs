@@ -15,18 +15,19 @@ namespace WeaponSystem
     {
         [SerializeField] private WeaponData weaponData;
         [SerializeField] private Transform firePoint;
-        [SerializeField] private ProjectileSpawner projectileSpawner;
 
         private float timeSinceLastShot;
         private float currentAmmo;
         private Camera mainCam;
 
         private CanvasController canvasController;
+        private ProjectileSpawner projectileSpawner;
 
         [Inject]
-        private void Construct(CanvasController canvasController)
+        private void Construct(CanvasController canvasController, ProjectileSpawner projectileSpawner)
         {
             this.canvasController = canvasController;
+            this.projectileSpawner = projectileSpawner;
         }
 
         private void Start()
